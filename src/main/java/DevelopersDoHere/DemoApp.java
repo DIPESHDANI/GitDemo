@@ -11,6 +11,10 @@ public class DemoApp {
 		String username=rb.getString("username");
 		String password=rb.getString("password");
 		
+		String passwor1d=rb.getString("password");
+		String password1=rb.getString("password");
+
+		
 		if(user_in.equals(username) && pwd_in.equals(password))
 		{
 			return 1;			// If both are equal Login Successful

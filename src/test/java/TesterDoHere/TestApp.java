@@ -10,7 +10,7 @@ public class TestApp {
 	public void testlogin1()
 	{
 		DemoApp myapp=new DemoApp();
-		Assert.assertEquals(0, myapp.userLogin("abc", "abc123")); //Failed Testcases as Password is incorrect
+		Assert.assertEquals(1, myapp.userLogin("abc", "abc123")); //Failed Testcases as Password is incorrect
 	}
 	
 	@Test

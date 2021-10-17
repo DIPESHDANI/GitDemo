@@ -15,7 +15,6 @@ public class SeleniumProject {
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver= new ChromeDriver();
-		driver.manage().window().maximize();
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 		
@@ -25,6 +24,7 @@ public class SeleniumProject {
 		
 		
 		Assert.assertEquals(driver.getTitle(), "OrangeHRM");
+		
 		
 		driver.close();		
 		
