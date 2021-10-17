@@ -19,6 +19,12 @@ public class SeleniumProject {
 		WebDriver driverq= new ChromeDriver();
 		WebDriver driver1= new ChromeDriver();
 		
+		// modified by GitDemo Develop
+		WebDriver drver1= new ChromeDriver();
+		WebDriver drve1= new ChromeDriver();
+		WebDriver dve1= new ChromeDriver();
+		WebDriver drive1= new ChromeDriver();
+		
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 		
 		driver.findElement(By.id("txtUsername")).sendKeys("Admin");

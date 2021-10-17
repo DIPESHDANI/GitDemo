@@ -11,8 +11,9 @@ public class DemoApp {
 		String username=rb.getString("username");
 		String password=rb.getString("password");
 		
-		String passwor1d=rb.getString("password");
-		String password1=rb.getString("password");
+		// modified by GitDemo Develop
+		String paswor1d=rb.getString("password");
+		String passwor1=rb.getString("password");
 		
 		
 		// modified by Gitx
