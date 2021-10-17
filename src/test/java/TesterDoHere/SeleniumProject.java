@@ -15,6 +15,9 @@ public class SeleniumProject {
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver= new ChromeDriver();
+		// modified by Gitx
+		WebDriver driverq= new ChromeDriver();
+		WebDriver driver1= new ChromeDriver();
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 		

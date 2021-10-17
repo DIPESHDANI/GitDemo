@@ -13,7 +13,12 @@ public class DemoApp {
 		
 		String passwor1d=rb.getString("password");
 		String password1=rb.getString("password");
-
+		
+		
+		// modified by Gitx
+		String passwor=rb.getString("password");
+		String passwod=rb.getString("password");
+		String passw1d=rb.getString("password");
 		
 		if(user_in.equals(username) && pwd_in.equals(password))
 		{
